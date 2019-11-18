@@ -7,6 +7,7 @@ module.exports = {
     ["link", { rel: "icon", href: `/favicon.ico`, type: "image/x-icon" }]
   ],
   dest:'public',
+  base:'/vuepress-docs-pro/',
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
